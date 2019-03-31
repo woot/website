@@ -1,0 +1,8 @@
+.DS_Store
+# node / npm
+node_modules
+*.log
+.next
+
+# build
+out
