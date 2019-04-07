@@ -14,7 +14,7 @@ export default () => (
   <div className='hello'>
     <img src="/static/woot.png" width="222" height="62" alt="Woot Logo" />
     <p>Something beautiful coming soon</p>
-    <p>contact@sergeylukin.com</p>
+    <p><a href="mailto:hi@woot.io?subject=Hi, woot.io!">hi@woot.io</a></p>
     <style jsx>{`
       .hello {
         font: 15px Helvetica, Arial, sans-serif;
