@@ -6,12 +6,17 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "npm run build && next export"
+    "export": "npm run build && next export",
+    "serve-lambdas": "netlify-lambda serve functions -p 5335",
+    "build-lambdas": "netlify-lambda build functions"
   },
   "dependencies": {
     "next": "7.0.2",
     "react": "16.6.0",
     "react-dom": "16.6.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "netlify-lambda": "^1.5.0"
+  }
 }
